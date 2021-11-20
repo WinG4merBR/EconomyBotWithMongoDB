@@ -1,6 +1,7 @@
 const { Client, Collection } = require('discord.js');
 const fs = require("fs");
 const Mongoose = require("./structures/mongoose.js");
+
 module.exports = class BotClient extends Client {
     constructor(options) {
         super(options);
