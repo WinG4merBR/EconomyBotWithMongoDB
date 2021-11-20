@@ -1,0 +1,27 @@
+{
+  "name": "boteconomiamongodb",
+  "version": "1.0.0",
+  "description": "Um template de um bot de economia para o Discord na V13 sem slashs commands",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WinG4merBR/BotEconomiaMongoDB.git"
+  },
+  "keywords": [
+    "bot",
+    "mongoose",
+    "javascript"
+  ],
+  "author": "WinG4merBR",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/WinG4merBR/BotEconomiaMongoDB/issues"
+  },
+  "homepage": "https://github.com/WinG4merBR/BotEconomiaMongoDB#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
