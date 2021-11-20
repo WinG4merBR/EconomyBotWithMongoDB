@@ -1,7 +1,7 @@
 const { Client, Collection } = require('discord.js');
 const fs = require("fs");
 const Mongoose = require("./structures/mongoose.js");
-module.exports = class Client extends Client {
+module.exports = class BotClient extends Client {
     constructor(options) {
         super(options);
         this.config = require('../config.json');
@@ -25,7 +25,7 @@ module.exports = class Client extends Client {
             }
         }
     }
-    
+
     loadEvents() {
         const eventFiles = fs.readdirSync("./src/events").filter(file => file.endsWith(".js"));
         for (const file of eventFiles) {
