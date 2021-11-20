@@ -16,7 +16,7 @@ module.exports = class DailyCommand {
             data.lastDaily = Date.now();
             data.balance += amount;
             data.save();
-            return message.reply(`Você recebeu seu daily de ${amount}`);
+            return message.reply(`Você recebeu seu daily de ${amount} OiCoins`);
         }
     }
 }
